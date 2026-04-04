@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DiDongVui - Thế Giới Smartphone Chính Hãng</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shop - DiDongVui</title>
+    <link rel="stylesheet" href="../publish/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
             </div>
             <nav class="navbar">
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Trang chủ</a></li>
-                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
                     <li><a href="product.html">Product</a></li>
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">Giới thiệu</a></li>
@@ -36,61 +36,24 @@
         </div>
     </header>
 
-    <section class="hero">
-        <div class="container hero-wrapper">
-            <div class="hero-content">
-                <span class="sub-title">Sản phẩm mới nhất 2026</span>
-                <h1>iPhone 15 Pro Max <br> Khung Titan Cực Đỉnh</h1>
-                <p>Mạnh mẽ hơn, nhẹ hơn và camera zoom 5x chuyên nghiệp. Trả góp 0% tại DiDongVui.</p>
-                <div class="hero-btns">
-                    <a href="shop.html" class="btn-cta">Mua ngay</a>
-                    <a href="product.html" class="btn-outline">Xem chi tiết</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="blog1.avif" alt="iPhone 15 Pro Max">
-            </div>
-        </div>
-    </section>
-
-    <section class="features">
-        <div class="container feature-grid">
-            <div class="feature-card">
-                <i class="fa-solid fa-truck-fast"></i>
-                <div class="feature-text">
-                    <h3>Giao hàng miễn phí</h3>
-                    <p>Đơn hàng trên 5.000.000đ</p>
-                </div>
-            </div>
-            <div class="feature-card">
-                <i class="fa-solid fa-shield-halved"></i>
-                <div class="feature-text">
-                    <h3>Bảo hành 12 tháng</h3>
-                    <p>Lỗi 1 đổi 1 chính hãng</p>
-                </div>
-            </div>
-            <div class="feature-card">
-                <i class="fa-solid fa-headset"></i>
-                <div class="feature-text">
-                    <h3>Hỗ trợ 24/7</h3>
-                    <p>Tư vấn kỹ thuật tận tâm</p>
-                </div>
-            </div>
-            <div class="feature-card">
-                <i class="fa-solid fa-rotate-left"></i>
-                <div class="feature-text">
-                    <h3>7 ngày đổi trả</h3>
-                    <p>Nếu sản phẩm có lỗi</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products" class="products-section">
+    <section class="page-hero">
         <div class="container">
             <div class="section-title">
-                <h2>Sản Phẩm Nổi Bật</h2>
+                <h2>Shop</h2>
                 <div class="underline"></div>
+            </div>
+            <p class="page-intro">Khám phá toàn bộ bộ sưu tập smartphone chính hãng với giao diện đồng bộ, giá bán rõ ràng và bố cục tối ưu để duyệt nhanh trên mọi thiết bị.</p>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-pill active">Tất cả</button>
+                <button class="filter-pill">iPhone</button>
+                <button class="filter-pill">Samsung</button>
+                <button class="filter-pill">Android</button>
+                <button class="filter-pill">Gaming</button>
             </div>
 
             <div class="product-grid">
@@ -191,31 +154,6 @@
                         <button class="btn-add-cart">Thêm vào giỏ</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="small-banner">
-        <div class="container small-banner-wrapper">
-            <div class="small-banner-content">
-                <span class="banner-tag">Ưu đãi đặc biệt</span>
-                <h3>Giảm đến <strong>5.000.000₫</strong> cho Samsung Galaxy S24</h3>
-                <p>Áp dụng đến hết 01/01/2026. Số lượng có hạn!</p>
-            </div>
-            <a href="shop.html" class="btn-cta">Mua ngay</a>
-        </div>
-    </section>
-
-    <section id="new-arrivals" class="new-arrivals-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Hàng Mới Về</h2>
-                <div class="underline"></div>
-                <p class="section-subtitle">Những sản phẩm mới nhất vừa cập bến PhoneStore</p>
-            </div>
-
-            <div class="product-grid">
-                
                 <div class="product-card">
                     <div class="product-img">
                         <img src="fold6.webp" alt="Samsung Galaxy Z Fold 6">
@@ -265,21 +203,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="newsletter-section">
-        <div class="container newsletter-wrapper">
-            <div class="newsletter-content">
-                <i class="fa-solid fa-envelope-open-text newsletter-icon"></i>
-                <h2>Đăng Ký Nhận Tin</h2>
-                <p>Nhận ngay thông tin khuyến mãi, sản phẩm mới và ưu đãi độc quyền dành riêng cho thành viên.</p>
-            </div>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Nhập địa chỉ email của bạn..." class="newsletter-input" aria-label="Email">
-                <button class="btn-newsletter" type="submit">Đăng ký ngay</button>
-            </form>
-            <p class="newsletter-note"><i class="fa-solid fa-lock"></i> Chúng tôi cam kết bảo mật thông tin của bạn</p>
         </div>
     </section>
 
